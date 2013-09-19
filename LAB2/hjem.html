@@ -1,7 +1,5 @@
-﻿<!DOCTYPE html>
-
 <!--
-  LAB1
+  LAB2
   Navn: Tore André Halhjem
   Rom: IS-104
 -->
@@ -9,50 +7,27 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Programmeringsspråk</title>
+		<title>Hjem</title>
 	  
 		<link rel="stylesheet" href="proglangs.css" type="text/css" media="all" />
 
 	 
 	</head>
 		<body>
-	
-		<div id="container">
-	
-		<h1> Programmeringsspr&aringk  </h1>
-	
-		<ul class="noliststyletype">
 		
-			<li class="red">ActionScript</li>
-			<li class="red">AppleScript</li>
-			<li class="red">Asp</li>	
-			<li class="blue">Basic</li>
-			<li class="blue">C</li>
-			<li class="blue">C++</li>
-			<li class="blue">Clojure</li>
-			<li class="blue">COBOL</li>
-			<li class="blue">ColdFusion</li>
-			<li class="green">Erlang</li>
-			<li class="green">Fortran</li>
-			<li class="green">Groovy </li>
-			<li class="green">Haskell</li>
-			<li class="yellow">Java</li>
-			<li class="yellow">JavaScript</li>
-			<li class="purple">Lisp</li>
-			<li class="purple">Perl</li>
-			<li class="purple">PHP</li>
-			<li class="purple">Python</li>
-			<li class="organge">Ruby</li>
-			<li class="organge">Scala</li>
-			<li class="organge">Scheme</li>
+		
+		<ul class="navbar">										<!--- Lager class for navbar. Ligger i CSS fil-->
+			<li><a href="Hjem.html"> Hjem</a>					<!--- Linker til ny html side -->
+			<li><a href="Alfabetisk.html"> Alfabetisk</a>		<!--- Linker til ny html side -->
+			<li><a href="Hierarkisk.html"> Hierarkisk</a>		<!--- Linker til ny html side -->
+			<li><a href="Kronologisk.html"> Kronologisk</a>		<!--- Linker til ny html side -->
 		</ul>
-	
-	</div>
 
-	<div id="content">
+		
+		<div id="content">
 	
 		<form>	
-			<label for="proglangs">Velg:</label>
+			<label for="proglangs">Søk i programmeringsspråk:</label>
 			<select name="select-pl" id="proglangs" onChange="printToOutputBox(this)">
 			<option value="..." >	</option>
 			<option value="asp">ActionScript</option>
@@ -77,11 +52,18 @@
 			<option value="scala">Scala</option>
 			<option value="She">Scheme</option>
 			</select>
+			
+			
+			<h1 class="h1">
+			
+				Programmeringsspr&aringk
+			
+			</h1>
 		</form>
 	
-			<span id="outputbox">Intet programmeringsspråk er valgt. Velg et programmeringsspråk!</span>
+			<span id="outputbox">Velkommen til en mystisk verden av programmeringsspråk</span>
 			<script src="proglangs.js"></script>
 		</div>
 
 	</body>
-</html>
+</html>		

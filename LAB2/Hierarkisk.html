@@ -1,0 +1,69 @@
+<!--
+  LAB2
+  Navn: Tore André Halhjem
+  Rom: IS-104
+-->
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hierarkisk</title>
+	  
+		<link rel="stylesheet" href="proglangs.css" type="text/css" media="all" />
+	
+	 
+	</head>
+		<body>
+		
+		
+		<ul class="navbar">										<!--- Lager class for navbar. Ligger i CSS fil-->
+			<li><a href="Hjem.html"> Hjem</a>					<!--- Linker til ny html side -->
+			<li><a href="Alfabetisk.html"> Alfabetisk</a>		<!--- Linker til ny html side -->
+			<li><a href="Hierarkisk.html"> Hierarkisk</a>		<!--- Linker til ny html side -->
+			<li><a href="Kronologisk.html"> Kronologisk</a>		<!--- Linker til ny html side -->
+		</ul>
+
+		
+		<div id="content">
+	
+		<form>	
+			<label for="proglangs">Søk i programmeringsspråk:</label>
+			<select name="select-pl" id="proglangs" onChange="printToOutputBox(this)">
+			<option value="..." >	</option>
+			<option value="asp">ActionScript</option>
+			<option value="asp">AppleScript</option>
+			<option value="asp">Asp</option>
+			<option value="basic">BASIC</option>
+			<option value="c">C</option>
+			<option value="cplusspluss">C++</option>
+			<option value="cplusspluss">Clojure</option>
+			<option value="cplusspluss">COBOL</option>
+			<option value="cf">ColdFusion</option>
+			<option value="er">Erlang</option>
+			<option value="ft">Fortran</option>
+			<option value="gry">Groovy</option>
+			<option value="hk">Haskell</option>
+			<option value="jv">Java</option>
+			<option value="jvs">JavaScript</option>
+			<option value="lisp">Lisp</option>
+			<option value="perl">Perl</option>
+			<option value="phy">Python</option>
+			<option value="ruby">Ruby</option>
+			<option value="scala">Scala</option>
+			<option value="She">Scheme</option>
+			</select>
+			
+			
+			<h1 class="h1">
+			
+				Hierartkisk oppsett av Programmeringsspr&aringk
+			
+			</h1>
+		</form>
+	
+			<span id="outputbox">Siden er under produksjon, beklager for det!</span>
+			<script src="proglangs.js"></script>
+		</div>
+		
+	</body>
+</html>		

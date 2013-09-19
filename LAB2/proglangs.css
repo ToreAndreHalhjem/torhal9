@@ -1,0 +1,107 @@
+
+body {
+		background-color: #FF8300;
+		font-family: Verdana, Arial, sans-serif;
+		padding: 30px 10px 10px 10px;
+		font-size: 16px;
+		margin: 0;
+		margin-bottom:2cm;
+		
+	}
+/*	
+#container{
+		background: #FFA240;
+		margin: auto;
+		width: 768px;
+		border-right: 1px solid #FFA240;
+		border-left: 1px solid #FFA240;
+		padding: 10px 38px 10px 20px;
+		text-align: center;
+		}
+*/		
+#content {
+		background: #FFBB73;
+		color: #024E68;
+		margin: auto;
+		margin-top:0;
+		padding: 40px 38px 0px 20px;
+		width: 768px;
+		height: 400px;
+		text-align: center;
+		float: center;
+		}
+		
+h1.h1 {
+	
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif 
+		}
+
+ul.navbar {							/*Rammen for klassen i menuvalg */
+
+	list-style-type: none;			/* Fjerner punktene i listen */
+    padding: 0;
+    margin: 0;	
+    position: absolute;				/* Gjør positionen absolutt. Det vil si at den: */
+    top: 2em;
+    left: 1em;
+    width: 9em; 
+	
+	}
+	
+	
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid #a65500; }
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: blue }
+a:visited {
+  color: purple }
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*		
+ul.noliststyletype {
+		list-style-type: none;
+				}
+		
+li.red {
+		color: red;
+	  }
+	  
+li.blue {
+		color: blue;
+	  }
+	  
+li.green {
+		color: green;
+	  }
+	  
+li.yellow {
+		color: yellow;
+	  }	
+
+li.purple {
+		color: purple;
+	  }
+
+li.organge {
+		color: #CC6633;
+	  }
+*/
