@@ -1,0 +1,192 @@
+
+body { 
+		font-family: Verdana, Arial, sans-serif; /* Setter fonten på dokumentet */
+		padding: 0;
+		margin: 0;
+		background: #f0f0f0;	/* Setter bakgrunnsfarge bak contentet */
+	}
+	
+#wrapper {
+		background: #f0f0f0; /* Setter bakgrunnsfarge på wrapper */
+		width: 85%; /* Setter bredden til 85% av skjermbildet */
+		margin-right: auto; /* Midtstiller nettsiden */
+		margin-left: auto; /* Midtstiller nettsiden */
+		-moz-box-shadow: 0px 0px 2px #333333;
+		-webkit-box-shadow: 0px 0px 2px #333333;
+		box-shadow: 0px 0px 2px #333333;
+		min-height:100%;
+}
+	
+#menubar ul { /* Definerer <ul> under menubar id'en */
+  background: #333333;
+  height: 45px;
+  list-style: none;
+  padding-left:10%;
+  margin: 0;
+  padding-top:5px;
+}		
+
+#menubar li { /* Definerer <li> under menubar id'en */
+  float: left;
+  padding: 0px;
+}
+
+#menubar li a { /* Definerer linkene som finnes i <li> under menubar id'en */
+  background: #333333 bottom right no-repeat;
+  display: block;
+  font-weight: normal;
+  line-height: 35px;
+  margin: 0px;
+  padding-left:25px;
+  padding-right:25px;
+  text-align: center;
+  text-decoration: none;
+  }
+  
+#menubar > ul > li > a { /* Definerer linkene i undermenyen */
+  color: #cccccc;
+  }
+
+#menubar ul ul a { /* Definerer linkene i menubar id'en */
+  color: #cccccc;
+  }
+  
+#menubar  li > a:hover,
+#menubar ul li:hover > a { /* Definerer hva som skjer når du holder over linkene med musa under menubar id'ën */
+  background: #333333 url('images/hover.png') bottom center no-repeat;
+  color: #FFFFFF;
+  text-decoration: none;
+  
+  }
+#menubar li ul { /* Definerer undermenyene */
+  background: #333333;
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 225px;
+  z-index: 200;
+}
+#menubar  li:hover ul { /* Definerer hva som skjer når du holder musa over et <ul> element innenfor <li> */
+  display: block;
+}
+
+#menubar li li { /* Definerer <li> innenfor <li> i menubar id'en */
+  background: url('images/sub_sep.png') bottom left no-repeat;
+  display: block;
+  float: center;
+  margin: 0px;
+  padding: 0px;
+  width: 225px;
+ }
+#menubar  li:hover li a { /* Definerer hva som skjer når du holder musa over en <li> innenfor  */
+  background: none;
+}
+
+#menubar li ul a {
+  display: block;
+  height: 35px;
+  font-size: 12px;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px 10px 0px 15px;
+  text-align: left;
+}
+
+#menubar  li ul a:hover,
+
+#menubar li ul li:hover > a {
+  background: #5e5e5e url('images/hover_sub.png') center left no-repeat;
+  border: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+#menubar p {
+  clear: left;
+}
+#footer { /* Definerer footeren */
+	background: #333333;
+	bottom:0;
+	width:100%;
+	height:60px;
+	text-align: center;	
+	position:absolute;
+}
+}
+
+	
+#container{ /* Definerer containeren */
+		background: #f0f0f0;
+		position: relative;
+		width: auto;
+		height: auto;
+		margin-top: 0px;
+		text-align: center;
+		padding-bottom:60px;
+		}
+		
+		
+#content { /* Definerer content */
+		background: #f0f0f0;
+		height: auto;
+		width: 60%;
+		margin-right: auto;
+		margin-left: auto;
+}		
+
+
+#contentbilde { /* Definerer contentbilde */
+		width: 250px;
+		height: 250px;
+		float: left;
+		margin-right: 10px;
+		margin-left: 10px;
+		margin-top: 25px;
+		padding: 0px 0px 0px 200px;
+		text-align: center;
+}
+
+#comment {
+
+		width: 60%;
+		height: auto;
+		float: right;
+		text-align: center;
+		border-style: solid;
+		border-width: 5px;
+		border-color: black;
+		margin-top: 225px;
+		
+		
+
+}
+
+#googleMap {
+width:250px;
+height:250px;
+float: right;
+margin-top: 10px;
+margin-right: 10px;
+
+}
+
+.fadein {
+position:relative;
+width:500px;
+height:332px;
+
+}
+
+.fadein img {
+position:absolute;
+left:0;
+top:0;
+
+}
+
+.sokemotor {
+margin-top: 5px;
+margin-left:50px;
+}
